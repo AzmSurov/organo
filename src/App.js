@@ -66,7 +66,7 @@ function App() {
     >
       <div class="relative z-10 md:w-1/2 w-full">
         <img
-          class="absolute top-0 right-0 md:-top-4 md:-right-8 w-24 h-auto"
+          class="absolute top-0 right-0 md:-top-4 md:-right-8 w-32 h-auto"
           src={leaf}
           alt=""
         />
@@ -75,11 +75,13 @@ function App() {
           <img class="w-auto h-8" src={vegetable} alt="" />
         </span>
         <h1
-          class="pt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tighter leading-tight whitespace-nowrap"
+          class="pt-4 text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-tight whitespace-nowrap"
         >
           Healthy Lifestyle <br />
-          is your only <br />
-          <span class="whitespace-nowrap text-[#80b13b]"> unfair advantage </span>
+          is your only 
+          <span class="whitespace-nowrap text-[#80b13b]"> unfair  </span>
+          <br />
+          <span class="whitespace-nowrap text-[#80b13b]">  advantage </span>
         </h1>
         <p class="pt-8 sm:text-lg max-w-md font-normal text-gray-600 leading-relaxed">
           Choose healthy habits with Organo daily meal prepared by our expert nutritionist
